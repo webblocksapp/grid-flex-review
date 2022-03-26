@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(216, 216, 216);
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px 3px #a6a6a6;
+  width: 320px;
+  height: 150px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.card > div > span:nth-child(1) {
+  font-size: 40px;
+}
+
+.card > div {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+}

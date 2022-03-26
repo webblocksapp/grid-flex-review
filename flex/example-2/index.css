@@ -1,0 +1,22 @@
+.flex-container {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(75, 75, 0);
+  display: flex;
+  /*Centrado horizontal*/
+  justify-content: center;
+  /*Centrado vertical*/
+  align-items: center;
+}
+
+.flex-container span,
+.flex-container ul {
+  color: white;
+  font-size: 30px;
+}
+
+.flex-container > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
