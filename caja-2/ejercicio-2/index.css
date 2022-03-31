@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: whitesmoke;
+  padding: 20px;
+  color: white;
+}
+#container {
+  background-color: #f1c954;
+  width: 444px;
+  height: 564px;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 1px 6px 10px 3px #a6a6a6;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#container > div {
+  font-size: 350px;
+}
+#container > p {
+  color: black;
+  font-size: 50px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}

@@ -22,12 +22,10 @@ body {
   justify-content: flex-start;
 }
 #container > div {
-  align-content: center;
-  width: 200px;
-  border: black 1px solid;
-  margin: 2px;
+  padding: 20px;
 }
 
 #container > p {
-  color: black;
+  color: rgb(3, 185, 185);
+  font-size: 20px;
 }

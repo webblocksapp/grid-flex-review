@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+body {
+}
+.container {
+  background-color: #0e9d57;
+  width: 444px;
+  height: 564px;
+  padding: 5px;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 1px 6px 10px 3px #a6a6a6;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container > div > p {
+  color: azure;
+  display: flex;
+  flex-flow: column;
+  font-size: 150px;
+}
+
+.container > div > b {
+  color: azure;
+  display: flex;
+  align-items: flex-start;
+}

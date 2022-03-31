@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  padding: 10px;
+  color: rgb(3, 185, 185);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#container {
+  background-color: azure;
+  width: 227px;
+  height: 174px;
+  display: flex;
+
+  border-radius: 5px;
+  border-color: aqua;
+  border-style: solid;
+  border-width: 2px;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+#container > div {
+  padding: 20px;
+}
+
+#container > p {
+  color: rgb(3, 185, 185);
+  font-size: 20px;
+}
