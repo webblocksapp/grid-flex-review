@@ -6,7 +6,7 @@ body {
   padding: 20px;
   color: black;
 }
-#container {
+.card {
   background-color: rgb(27, 216, 216);
   width: 444px;
   height: 564px;
@@ -18,10 +18,10 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-#container > div {
+.card > div {
   font-size: 350px;
 }
-#container > p {
+.card > p {
   font-size: 50px;
   display: flex;
   flex-flow: column;
