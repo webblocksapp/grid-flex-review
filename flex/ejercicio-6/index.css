@@ -7,7 +7,7 @@ body {
   color: rgb(3, 185, 185);
 }
 
-#container {
+.card {
   background-color: azure;
   width: 227px;
   height: 174px;
@@ -21,11 +21,11 @@ body {
   align-items: center;
   justify-content: flex-start;
 }
-#container > div {
+.card > div {
   padding: 20px;
 }
 
-#container > p {
+.card > p {
   color: rgb(3, 185, 185);
   font-size: 20px;
 }
