@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  margin: 0;
+}
+.carta {
+  display: grid;
+  width: 260px;
+  height: 220px;
+  color: #0097a7;
+  grid-template-rows: 50px 1fr;
+  border: solid 2px #80deea;
+  border-radius: 7px;
+}
+.carta > div:nth-child(1) {
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0f7fa;
+  border-bottom: 2px solid #80deea;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+.carta > div:nth-child(2) {
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.carta h1 {
+  font-size: 22px;
+}
+.carta span {
+  font-size: 24px;
+}
+.carta .contenido {
+  margin-bottom: 12px;
+}

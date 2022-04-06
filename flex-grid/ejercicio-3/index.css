@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+body {
+  background-color: antiquewhite;
+}
+
+.card {
+  display: grid;
+  width: 444px;
+  height: 565px;
+  background-color: #5bc0de;
+  grid-template-rows: 2fr 140px;
+
+  box-shadow: 9px 13px 15px -7px rgba(0, 0, 0, 0.51);
+}
+.card > div:nth-child(1) {
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #5bc0de;
+  font-size: 300px;
+}
+.card > div:nth-child(2) {
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: white;
+  font-size: 60px;
+}

@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 800px;
+  height: 600px;
+  border: 2px solid grey;
+  gap: 17px;
+  padding: 17px;
+}
+
+h1 {
+  margin: 0%;
+}
+.carta {
+  display: grid;
+  grid-template-rows: 50px 1fr;
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  background-color: white;
+}
+.carta > div:nth-child(1) {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+.carta > div:nth-child(2) {
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.carta h1 {
+  font-size: 22px;
+}
+
+.carta span {
+  font-size: 24px;
+}
+
+.carta .contenido {
+  margin-bottom: 12px;
+}
+
+.carta.carta-azul {
+  color: #0097a7;
+  border: 2px solid #80deea;
+}
+.carta.carta-azul > div:nth-child(1) {
+  border-bottom: 2px #80deea solid;
+  background-color: #e0f7fa;
+}
+.carta.carta-amarilla {
+  color: #ffa000;
+  border: 2px solid #ffe082;
+}
+.carta.carta-amarilla > div:nth-child(1) {
+  border-bottom: 2px solid #ffe082;
+  background-color: #fff8e1;
+}
+.carta.carta-roja {
+  color: #d32e2e;
+  border: 2px solid #ef9a9a;
+}
+.carta.carta-roja > div:nth-child(1) {
+  border-bottom: 2px solid #ef9a9a;
+  background-color: #ffebee;
+}
