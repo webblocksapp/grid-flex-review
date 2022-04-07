@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: antiquewhite;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  background-color: rgb(223, 196, 162);
+}
+
+main {
+  background-color: rgb(173, 226, 234);
+}
+
+footer {
+  background-color: rgb(202, 211, 22);
+}
