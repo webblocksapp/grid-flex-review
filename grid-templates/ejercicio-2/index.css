@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 5px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container-text {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+a {
+  font-size: 20px;
+}
+
+.container-img {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+}
+
+.img-1 {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-content: center;
+  justify-items: center;
+}
