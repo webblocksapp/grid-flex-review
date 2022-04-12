@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 17px;
+}
+
+body > div:nth-child(1) {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 17px;
+}
+
+body > div:nth-child(1) > div:nth-child(2) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 17px;
+}
+
+.box {
+  background-color: rgb(79, 79, 79);
+  color: white;
+  font-size: 40px;
+  border-radius: 7px;
+  padding: 20px;
+}
