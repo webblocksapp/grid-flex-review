@@ -11,22 +11,60 @@ body {
 
 body {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 4fr 1fr;
   padding: 5px;
   gap: 5px;
 }
 
 .box-1 {
   display: grid;
-  grid-template-columns: 2fr;
+  grid-template-columns: 2fr 1fr;
+  gap: 5px;
 }
 
 .box-2 {
-  display: grid;
-  grid-template-columns: 2fr 2fr;
+  display: flex;
+  background-color: rgb(132, 233, 233);
+  align-items: center;
+  justify-content: center;
 }
 
 .box-3 {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+}
+.box-4 {
+  background-color: rgb(177, 252, 227);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-5 {
+  display: flex;
+  background-color: rgb(248, 181, 56);
+
+  align-items: center;
+  justify-content: center;
+}
+
+.box-6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+.box-7 {
+  display: flex;
+  background: rgb(233, 233, 84);
+
+  align-items: center;
+  justify-content: center;
+}
+
+.box-8 {
+  background: rgb(193, 241, 121);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
