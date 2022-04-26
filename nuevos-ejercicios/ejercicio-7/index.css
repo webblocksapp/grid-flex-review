@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: aquamarine;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 190px 1fr;
+}
+
+.sidebar {
+  display: flex;
+  background-color: bisque;
+}
+
+.inner-container {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  background-color: brown;
+}
+
+.chips-container {
+  display: flex;
+  background-color: rgb(96, 108, 214);
+}
+
+.video-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 190px;
+  background-color: rgb(216, 155, 79);
+  gap: 20px;
+  padding: 20px;
+}
+
+.video-container > div {
+  background-color: blueviolet;
+}
+
+.video-container > div:nth-child(1) {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+}
+
+.video-container > div > div:nth-child(1) {
+  background-color: aqua;
+}
+
+.video-container > div > div:nth-child(2) {
+  display: grid;
+  grid-template-columns: 30px 2fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.style {
+  border-radius: 10px;
+  font-size: 15px;
+}
